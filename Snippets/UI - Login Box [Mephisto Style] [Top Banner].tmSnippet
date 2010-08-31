@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta http-equiv="Content-type" content="text/html; charset=utf-8"&gt;
+		&lt;title&gt;${1:your_title}&lt;/title&gt;
+		&lt;%= stylesheet_link_tag 'login'  %&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;&lt;/h1&gt;
+		&lt;div id="login-container"&gt;
+			&lt;%= yield %&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</string>
+	<key>name</key>
+	<string>UI - Login Box [Mephisto Style] [Top Banner]</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>ui</string>
+	<key>uuid</key>
+	<string>5AE7262D-BBC3-4BFE-9C85-6F6AE87E363F</string>
+</dict>
+</plist>

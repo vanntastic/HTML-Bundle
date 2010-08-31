@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta http-equiv="Content-type" content="text/html; charset=utf-8"&gt;
+		&lt;title&gt;$1&lt;/title&gt;
+		&lt;%= javascript_include_tag :defaults  %&gt;
+		&lt;%= javascript_include_tag 'css_browser_styles'  %&gt;
+	&lt;/head&gt;
+	
+	&lt;body&gt;
+		&lt;div id="header"&gt;
+			&lt;h1&gt;$1&lt;/h1&gt;
+			&lt;div id="nav"&gt;
+				&lt;ul&gt;
+					&lt;li&gt;
+						&lt;!-- links go here --&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;	
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id="aux"&gt;
+			This is the aux...	
+		&lt;/div&gt;
+		&lt;div id="content"&gt;
+			&lt;%= content_tag "h1", @page_title %&gt;	
+			&lt;%= yield %&gt;
+		&lt;/div&gt;
+		&lt;div id="footer"&gt;
+			&lt;p&gt;This is the footer&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</string>
+	<key>name</key>
+	<string>UI - Tabbed Interface [Rails][Basecamp Style][Blue/Yellow]</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>ui</string>
+	<key>uuid</key>
+	<string>C29A523C-2528-4352-98DD-15021DD524F8</string>
+</dict>
+</plist>
